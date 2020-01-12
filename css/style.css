@@ -27,7 +27,7 @@ margin: 5px;
 padding: 5px;
 width: auto;
 }
-input{
+input, textarea{
 border: none;
 color: black;
 padding: 8px;
