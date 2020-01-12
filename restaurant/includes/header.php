@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FoodShala</title>
+    <title>Foodee</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,7 +29,7 @@ $("#update").load(location.href + " #update");
 
 <body>
 <div class="container">
-    <h1 class="text-center">F<img src="../images/o1.png"><img src="../images/o2.png">D SHALA</h1>
+    <h1 class="text-center">F<img src="../images/o1.png"><img src="../images/o2.png">DEE</h1>
     <h4 class="text-center slogan">Feeling hungry? We got you covered!</h4>
     <div class="row">
 
