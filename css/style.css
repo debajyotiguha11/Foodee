@@ -1,0 +1,207 @@
+*{
+font-family: "monospace";
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background-color: #eeede8;
+
+}
+
+.slogan {
+    font-style: italic;
+    color: #bc8f8f;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: #eeede8;
+}
+select{
+border:none;
+margin: 5px;
+padding: 5px;
+width: auto;
+}
+input{
+border: none;
+color: black;
+padding: 8px;
+}
+.removeItem{
+background-color: #fff0;
+border:none;
+color: red;
+} 
+.modal-header, .modal-body{
+background-color: #e7e7e7;
+}
+.buttons {
+    padding-bottom: 20px;
+}
+.button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.singleItem, .buttons{
+    /*width: 70%;*/
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.singleItem select {
+    height: 26px;
+}
+.singleItem input[type="number"] {
+    width: 20%;
+}
+
+div.toppings {
+    padding: 10px 0;
+    /*width: 50%;*/
+    margin: 10px auto;
+    background-color: rgba(242, 233, 146, 0.47);
+
+}
+
+.toppings label {
+    padding-right: 25px;
+}
+
+.menu {
+    float: left;
+}
+
+.menuItem {
+    padding: 2%;
+    background-color: #e5e5e2;
+    margin-bottom: 10px;
+}
+
+
+
+#food {
+    border-left: 1px solid gainsboro;
+}
+
+.kitchenName{
+    color: #007b7b;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.foodName , .total {
+    color: #00a1a0;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.price {
+    display: inline;
+    font-size: 1.1em;
+}
+
+
+
+.orderSummary p, .orderSummary h5{
+    display: inline-block;
+    width: 50%;
+}
+
+/*.orderSummary {*/
+    /*text-align: center;*/
+/*}*/
+
+p.cost {
+    width: 30%;
+    text-align: right;
+}
+
+.total {
+    color: #eee;
+}
+
+button.details {
+    float:right;
+    background-color: #ccc;
+}
+
+.details i {
+    color: white;
+}
+
+#finalPrice {
+  background-color: #87cbd4;
+}
+
+.errorMsg {
+    text-align: center;
+    color: #00bcd4;
+}
+
+a {
+    text-align: center;
+    border: 1px solid gainsboro;
+    padding: 2px;
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) 
+    .row.content {height: 1500px} */
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      overflow: hidden;
+      height: 100%;
+    }
+    
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+.sidenav .icon {
+  display: none;
+}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */  
+    @media screen and (max-width: 600px) {
+  .sidenav li:not(:last-child) {display: none;}
+  .sidenav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav.responsive {position: relative;}
+  .sidenav.responsive .icon {
+    position: absolute;
+    float:left;
+  }
+  .sidenav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
