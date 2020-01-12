@@ -20,7 +20,7 @@
 $(document).ready(function(){
 setInterval(function(){
 $("#update").load(location.href + " #update");
-}, 1000);
+}, 2000);
 });
 
 </script>
