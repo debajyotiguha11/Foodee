@@ -48,6 +48,6 @@ include 'includes/header.php';
 
 </form>
 </div>
-<center><p><?php if(isset($_SESSION['error'])) echo $_SESSION['error']; ?></p></center>
+<center><div class="error"><p><?php if(isset($_SESSION['error'])) echo $_SESSION['error']; ?></p><div class="error"></center>
 <?php
 include 'includes/footer.php';

@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
 	<p><input type="password" name="password" placeholder="New Password" required></p>
 	<p><textarea name="address" required><?php echo $address ?></textarea></p>
             <input type="submit" name="submit" class="button" value="Update">
-<?php if(isset($message)) echo $message; ?>
+<div class="error"><?php if(isset($message)) echo $message; ?></div>
 </div>
 </form>
 <?php
