@@ -105,7 +105,7 @@ $quantity[$r['mid']] = $r['quantity'];
             <input type="button" class="button" value="Login" id="login">
             <input type="button" class="button" value="Register" id="register">
             <?php } ?>
-            <p><?php if(isset($_SESSION['error'])) echo $_SESSION['error']; ?></p>
+            <div class="error"><p><?php if(isset($_SESSION['error'])) echo $_SESSION['error']; ?></p></div>
         </div>
     </div>
 </form>
@@ -120,7 +120,7 @@ $quantity[$r['mid']] = $r['quantity'];
 	<p><input type="password" name="password" placeholder="Password" required></p>
             <input type="submit" name="login" class="button" value="Login">
             <input type="button" class="button" value="Back" onClick="location.reload(); ">
-            <p><a href="restaurant/">Restaurant login HERE</a></p>
+            <p><a href="restaurant/">Restaurant login here</a></p>
            </center>
         </div>
 	</div>
@@ -143,7 +143,7 @@ $quantity[$r['mid']] = $r['quantity'];
 	<p>Veg <input type="radio" name="preference" value="1" required> Non-Veg <input type="radio" name="preference" value="0"> Both <input type="radio" name="preference" value="2"></p>
             <input type="submit" name="submit" class="button" value="Register">
             <input type="button" class="button" value="Back" onClick="location.reload(); ">
-            <p><a href="restaurant/">Restaurant register HERE</a></p>
+            <p><a href="restaurant/">Restaurant register here</a></p>
            </center>
         </div>
 	</div>

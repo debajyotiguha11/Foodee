@@ -87,7 +87,7 @@ if (isset($_POST['submit'])) {
   $r = mysqli_fetch_array($result);
   if($r) {?>
   <input type="submit" name="submit" value="Order" class="btn btn-success " onclick="return confirm('Are You Sure For order?')">
-  <?php if(isset($message)) echo $message; } ?>
+  <div class="error"><?php if(isset($message)) echo $message; } ?></div>
 </form>
 </div>
 

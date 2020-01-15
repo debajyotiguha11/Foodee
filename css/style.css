@@ -205,6 +205,11 @@ a {
   }
 }
 
+.error{
+    color: red;
+    
+}
+
 .footer {
    right: 0;
    bottom: 0;
@@ -213,3 +218,4 @@ a {
    color: black;
    text-align: center;
 }
+

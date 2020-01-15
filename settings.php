@@ -87,7 +87,7 @@ if (isset($_POST['submit'])) {
 	<p>Veg <input type="radio" name="preference" value="1" required> Non-Veg <input type="radio" name="preference" value="0" > Both <input type="radio" name="preference" value="2" checked></p>
 	<?php } ?>
             <input type="submit" name="submit" class="button" value="Update">
-<?php if(isset($message)) echo $message; ?>
+<div class="error"><?php if(isset($message)) echo $message; ?></div>
 </div>
 </form>
 
